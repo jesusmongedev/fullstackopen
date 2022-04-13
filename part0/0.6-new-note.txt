@@ -1,0 +1,9 @@
+title Creating a new note on spa page
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+note over browser:
+The spa.js file handles the HTTP POST, send he new note to the server, 
+using the sendToServer function. It is alse preventing the form's default 
+reload, and redrawing notes. 
+end note
